@@ -1,0 +1,30 @@
+{
+  "name": "ast-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack",
+    "babel": "babel-node ./src/babel-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "babel-core": "^6.26.3",
+    "babel-generator": "^6.26.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-traverse": "^6.26.0",
+    "babel-types": "^6.26.0",
+    "escodegen": "^2.0.0",
+    "esprima": "^4.0.1",
+    "estraverse": "^5.2.0",
+    "util": "^0.12.3",
+    "webpack": "^5.18.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.12.11"
+  }
+}

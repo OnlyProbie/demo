@@ -1,0 +1,602 @@
+dependencies:
+  express: artifactory.intra.xiaojukeji.com/express/4.17.1
+lockfileVersion: 5.2
+packages:
+  artifactory.intra.xiaojukeji.com/accepts/1.3.7:
+    dependencies:
+      mime-types: artifactory.intra.xiaojukeji.com/mime-types/2.1.29
+      negotiator: artifactory.intra.xiaojukeji.com/negotiator/0.6.2
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: accepts
+    resolution:
+      integrity: sha1-UxvHJlF6OytB+FACHGzBXqq1B80=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/accepts/download/accepts-1.3.7.tgz
+    version: 1.3.7
+  artifactory.intra.xiaojukeji.com/array-flatten/1.1.1:
+    dev: false
+    name: array-flatten
+    resolution:
+      integrity: sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/array-flatten/download/array-flatten-1.1.1.tgz
+    version: 1.1.1
+  artifactory.intra.xiaojukeji.com/body-parser/1.19.0:
+    dependencies:
+      bytes: artifactory.intra.xiaojukeji.com/bytes/3.1.0
+      content-type: artifactory.intra.xiaojukeji.com/content-type/1.0.4
+      debug: artifactory.intra.xiaojukeji.com/debug/2.6.9
+      depd: artifactory.intra.xiaojukeji.com/depd/1.1.2
+      http-errors: artifactory.intra.xiaojukeji.com/http-errors/1.7.2
+      iconv-lite: artifactory.intra.xiaojukeji.com/iconv-lite/0.4.24
+      on-finished: artifactory.intra.xiaojukeji.com/on-finished/2.3.0
+      qs: artifactory.intra.xiaojukeji.com/qs/6.7.0
+      raw-body: artifactory.intra.xiaojukeji.com/raw-body/2.4.0
+      type-is: artifactory.intra.xiaojukeji.com/type-is/1.6.18
+    dev: false
+    engines:
+      node: '>= 0.8'
+    name: body-parser
+    resolution:
+      integrity: sha1-lrJwnlfJxOCab9Zqj9l5hE9p8Io=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/body-parser/download/body-parser-1.19.0.tgz
+    version: 1.19.0
+  artifactory.intra.xiaojukeji.com/bytes/3.1.0:
+    dev: false
+    engines:
+      node: '>= 0.8'
+    name: bytes
+    resolution:
+      integrity: sha1-9s95M6Ng4FiPqf3oVlHNx/gF0fY=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/bytes/download/bytes-3.1.0.tgz
+    version: 3.1.0
+  artifactory.intra.xiaojukeji.com/content-disposition/0.5.3:
+    dependencies:
+      safe-buffer: artifactory.intra.xiaojukeji.com/safe-buffer/5.1.2
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: content-disposition
+    resolution:
+      integrity: sha1-4TDK9+cnkIfFYWwgB9BIVpiYT70=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/content-disposition/download/content-disposition-0.5.3.tgz
+    version: 0.5.3
+  artifactory.intra.xiaojukeji.com/content-type/1.0.4:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: content-type
+    resolution:
+      integrity: sha1-4TjMdeBAxyexlm/l5fjJruJW/js=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/content-type/download/content-type-1.0.4.tgz
+    version: 1.0.4
+  artifactory.intra.xiaojukeji.com/cookie-signature/1.0.6:
+    dev: false
+    name: cookie-signature
+    resolution:
+      integrity: sha1-4wOogrNCzD7oylE6eZmXNNqzriw=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/cookie-signature/download/cookie-signature-1.0.6.tgz
+    version: 1.0.6
+  artifactory.intra.xiaojukeji.com/cookie/0.4.0:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: cookie
+    resolution:
+      integrity: sha1-vrQ35wIrO21JAZ0IhmUwPr6cFLo=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/cookie/download/cookie-0.4.0.tgz
+    version: 0.4.0
+  artifactory.intra.xiaojukeji.com/debug/2.6.9:
+    dependencies:
+      ms: artifactory.intra.xiaojukeji.com/ms/2.0.0
+    dev: false
+    name: debug
+    resolution:
+      integrity: sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/debug/download/debug-2.6.9.tgz
+    version: 2.6.9
+  artifactory.intra.xiaojukeji.com/depd/1.1.2:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: depd
+    resolution:
+      integrity: sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/depd/download/depd-1.1.2.tgz
+    version: 1.1.2
+  artifactory.intra.xiaojukeji.com/destroy/1.0.4:
+    dev: false
+    name: destroy
+    resolution:
+      integrity: sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/destroy/download/destroy-1.0.4.tgz
+    version: 1.0.4
+  artifactory.intra.xiaojukeji.com/ee-first/1.1.1:
+    dev: false
+    name: ee-first
+    resolution:
+      integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/ee-first/download/ee-first-1.1.1.tgz
+    version: 1.1.1
+  artifactory.intra.xiaojukeji.com/encodeurl/1.0.2:
+    dev: false
+    engines:
+      node: '>= 0.8'
+    name: encodeurl
+    resolution:
+      integrity: sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/encodeurl/download/encodeurl-1.0.2.tgz
+    version: 1.0.2
+  artifactory.intra.xiaojukeji.com/escape-html/1.0.3:
+    dev: false
+    name: escape-html
+    resolution:
+      integrity: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/escape-html/download/escape-html-1.0.3.tgz
+    version: 1.0.3
+  artifactory.intra.xiaojukeji.com/etag/1.8.1:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: etag
+    resolution:
+      integrity: sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/etag/download/etag-1.8.1.tgz
+    version: 1.8.1
+  artifactory.intra.xiaojukeji.com/express/4.17.1:
+    dependencies:
+      accepts: artifactory.intra.xiaojukeji.com/accepts/1.3.7
+      array-flatten: artifactory.intra.xiaojukeji.com/array-flatten/1.1.1
+      body-parser: artifactory.intra.xiaojukeji.com/body-parser/1.19.0
+      content-disposition: artifactory.intra.xiaojukeji.com/content-disposition/0.5.3
+      content-type: artifactory.intra.xiaojukeji.com/content-type/1.0.4
+      cookie: artifactory.intra.xiaojukeji.com/cookie/0.4.0
+      cookie-signature: artifactory.intra.xiaojukeji.com/cookie-signature/1.0.6
+      debug: artifactory.intra.xiaojukeji.com/debug/2.6.9
+      depd: artifactory.intra.xiaojukeji.com/depd/1.1.2
+      encodeurl: artifactory.intra.xiaojukeji.com/encodeurl/1.0.2
+      escape-html: artifactory.intra.xiaojukeji.com/escape-html/1.0.3
+      etag: artifactory.intra.xiaojukeji.com/etag/1.8.1
+      finalhandler: artifactory.intra.xiaojukeji.com/finalhandler/1.1.2
+      fresh: artifactory.intra.xiaojukeji.com/fresh/0.5.2
+      merge-descriptors: artifactory.intra.xiaojukeji.com/merge-descriptors/1.0.1
+      methods: artifactory.intra.xiaojukeji.com/methods/1.1.2
+      on-finished: artifactory.intra.xiaojukeji.com/on-finished/2.3.0
+      parseurl: artifactory.intra.xiaojukeji.com/parseurl/1.3.3
+      path-to-regexp: artifactory.intra.xiaojukeji.com/path-to-regexp/0.1.7
+      proxy-addr: artifactory.intra.xiaojukeji.com/proxy-addr/2.0.6
+      qs: artifactory.intra.xiaojukeji.com/qs/6.7.0
+      range-parser: artifactory.intra.xiaojukeji.com/range-parser/1.2.1
+      safe-buffer: artifactory.intra.xiaojukeji.com/safe-buffer/5.1.2
+      send: artifactory.intra.xiaojukeji.com/send/0.17.1
+      serve-static: artifactory.intra.xiaojukeji.com/serve-static/1.14.1
+      setprototypeof: artifactory.intra.xiaojukeji.com/setprototypeof/1.1.1
+      statuses: artifactory.intra.xiaojukeji.com/statuses/1.5.0
+      type-is: artifactory.intra.xiaojukeji.com/type-is/1.6.18
+      utils-merge: artifactory.intra.xiaojukeji.com/utils-merge/1.0.1
+      vary: artifactory.intra.xiaojukeji.com/vary/1.1.2
+    dev: false
+    engines:
+      node: '>= 0.10.0'
+    name: express
+    resolution:
+      integrity: sha1-RJH8OGBc9R+GKdOcK10Cb5ikwTQ=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/express/download/express-4.17.1.tgz
+    version: 4.17.1
+  artifactory.intra.xiaojukeji.com/finalhandler/1.1.2:
+    dependencies:
+      debug: artifactory.intra.xiaojukeji.com/debug/2.6.9
+      encodeurl: artifactory.intra.xiaojukeji.com/encodeurl/1.0.2
+      escape-html: artifactory.intra.xiaojukeji.com/escape-html/1.0.3
+      on-finished: artifactory.intra.xiaojukeji.com/on-finished/2.3.0
+      parseurl: artifactory.intra.xiaojukeji.com/parseurl/1.3.3
+      statuses: artifactory.intra.xiaojukeji.com/statuses/1.5.0
+      unpipe: artifactory.intra.xiaojukeji.com/unpipe/1.0.0
+    dev: false
+    engines:
+      node: '>= 0.8'
+    name: finalhandler
+    resolution:
+      integrity: sha1-t+fQAP/RGTjQ/bBTUG9uur6fWH0=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/finalhandler/download/finalhandler-1.1.2.tgz
+    version: 1.1.2
+  artifactory.intra.xiaojukeji.com/forwarded/0.1.2:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: forwarded
+    resolution:
+      integrity: sha1-mMI9qxF1ZXuMBXPozszZGw/xjIQ=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/forwarded/download/forwarded-0.1.2.tgz
+    version: 0.1.2
+  artifactory.intra.xiaojukeji.com/fresh/0.5.2:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: fresh
+    resolution:
+      integrity: sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/fresh/download/fresh-0.5.2.tgz
+    version: 0.5.2
+  artifactory.intra.xiaojukeji.com/http-errors/1.7.2:
+    dependencies:
+      depd: artifactory.intra.xiaojukeji.com/depd/1.1.2
+      inherits: artifactory.intra.xiaojukeji.com/inherits/2.0.3
+      setprototypeof: artifactory.intra.xiaojukeji.com/setprototypeof/1.1.1
+      statuses: artifactory.intra.xiaojukeji.com/statuses/1.5.0
+      toidentifier: artifactory.intra.xiaojukeji.com/toidentifier/1.0.0
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: http-errors
+    resolution:
+      integrity: sha1-T1ApzxMjnzEDblsuVSkrz7zIXI8=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/http-errors/download/http-errors-1.7.2.tgz
+    version: 1.7.2
+  artifactory.intra.xiaojukeji.com/http-errors/1.7.3:
+    dependencies:
+      depd: artifactory.intra.xiaojukeji.com/depd/1.1.2
+      inherits: artifactory.intra.xiaojukeji.com/inherits/2.0.4
+      setprototypeof: artifactory.intra.xiaojukeji.com/setprototypeof/1.1.1
+      statuses: artifactory.intra.xiaojukeji.com/statuses/1.5.0
+      toidentifier: artifactory.intra.xiaojukeji.com/toidentifier/1.0.0
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: http-errors
+    resolution:
+      integrity: sha1-bGGeT5xgMIw4UZSYwU+7EKrOuwY=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/http-errors/download/http-errors-1.7.3.tgz
+    version: 1.7.3
+  artifactory.intra.xiaojukeji.com/iconv-lite/0.4.24:
+    dependencies:
+      safer-buffer: artifactory.intra.xiaojukeji.com/safer-buffer/2.1.2
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    name: iconv-lite
+    resolution:
+      integrity: sha1-ICK0sl+93CHS9SSXSkdKr+czkIs=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/iconv-lite/download/iconv-lite-0.4.24.tgz
+    version: 0.4.24
+  artifactory.intra.xiaojukeji.com/inherits/2.0.3:
+    dev: false
+    name: inherits
+    resolution:
+      integrity: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/inherits/download/inherits-2.0.3.tgz
+    version: 2.0.3
+  artifactory.intra.xiaojukeji.com/inherits/2.0.4:
+    dev: false
+    name: inherits
+    resolution:
+      integrity: sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/inherits/download/inherits-2.0.4.tgz
+    version: 2.0.4
+  artifactory.intra.xiaojukeji.com/ipaddr.js/1.9.1:
+    dev: false
+    engines:
+      node: '>= 0.10'
+    name: ipaddr.js
+    resolution:
+      integrity: sha1-v/OFQ+64mEglB5/zoqjmy9RngbM=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/ipaddr.js/download/ipaddr.js-1.9.1.tgz
+    version: 1.9.1
+  artifactory.intra.xiaojukeji.com/media-typer/0.3.0:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: media-typer
+    resolution:
+      integrity: sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/media-typer/download/media-typer-0.3.0.tgz
+    version: 0.3.0
+  artifactory.intra.xiaojukeji.com/merge-descriptors/1.0.1:
+    dev: false
+    name: merge-descriptors
+    resolution:
+      integrity: sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/merge-descriptors/download/merge-descriptors-1.0.1.tgz
+    version: 1.0.1
+  artifactory.intra.xiaojukeji.com/methods/1.1.2:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: methods
+    resolution:
+      integrity: sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/methods/download/methods-1.1.2.tgz
+    version: 1.1.2
+  artifactory.intra.xiaojukeji.com/mime-db/1.46.0:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: mime-db
+    resolution:
+      integrity: sha1-Ymd0in95lZTePLyM3pHe80lmHO4=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/mime-db/download/mime-db-1.46.0.tgz
+    version: 1.46.0
+  artifactory.intra.xiaojukeji.com/mime-types/2.1.29:
+    dependencies:
+      mime-db: artifactory.intra.xiaojukeji.com/mime-db/1.46.0
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: mime-types
+    resolution:
+      integrity: sha1-HUq3faZLkfX3JInfKSNlY3VLsbI=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/mime-types/download/mime-types-2.1.29.tgz
+    version: 2.1.29
+  artifactory.intra.xiaojukeji.com/mime/1.6.0:
+    dev: false
+    engines:
+      node: '>=4'
+    hasBin: true
+    name: mime
+    resolution:
+      integrity: sha1-Ms2eXGRVO9WNGaVor0Uqz/BJgbE=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/mime/download/mime-1.6.0.tgz
+    version: 1.6.0
+  artifactory.intra.xiaojukeji.com/ms/2.0.0:
+    dev: false
+    name: ms
+    resolution:
+      integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/ms/download/ms-2.0.0.tgz
+    version: 2.0.0
+  artifactory.intra.xiaojukeji.com/ms/2.1.1:
+    dev: false
+    name: ms
+    resolution:
+      integrity: sha1-MKWGTrPrsKZvLr5tcnrwagnYbgo=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/ms/download/ms-2.1.1.tgz
+    version: 2.1.1
+  artifactory.intra.xiaojukeji.com/negotiator/0.6.2:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: negotiator
+    resolution:
+      integrity: sha1-/qz3zPUlp3rpY0Q2pkiD/+yjRvs=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/negotiator/download/negotiator-0.6.2.tgz
+    version: 0.6.2
+  artifactory.intra.xiaojukeji.com/on-finished/2.3.0:
+    dependencies:
+      ee-first: artifactory.intra.xiaojukeji.com/ee-first/1.1.1
+    dev: false
+    engines:
+      node: '>= 0.8'
+    name: on-finished
+    resolution:
+      integrity: sha1-IPEzZIGwg811M3mSoWlxqi2QaUc=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/on-finished/download/on-finished-2.3.0.tgz
+    version: 2.3.0
+  artifactory.intra.xiaojukeji.com/parseurl/1.3.3:
+    dev: false
+    engines:
+      node: '>= 0.8'
+    name: parseurl
+    resolution:
+      integrity: sha1-naGee+6NEt/wUT7Vt2lXeTvC6NQ=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/parseurl/download/parseurl-1.3.3.tgz
+    version: 1.3.3
+  artifactory.intra.xiaojukeji.com/path-to-regexp/0.1.7:
+    dev: false
+    name: path-to-regexp
+    resolution:
+      integrity: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/path-to-regexp/download/path-to-regexp-0.1.7.tgz
+    version: 0.1.7
+  artifactory.intra.xiaojukeji.com/proxy-addr/2.0.6:
+    dependencies:
+      forwarded: artifactory.intra.xiaojukeji.com/forwarded/0.1.2
+      ipaddr.js: artifactory.intra.xiaojukeji.com/ipaddr.js/1.9.1
+    dev: false
+    engines:
+      node: '>= 0.10'
+    name: proxy-addr
+    resolution:
+      integrity: sha1-/cIzZQVEfT8vLGOO0nLK9hS7sr8=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/proxy-addr/download/proxy-addr-2.0.6.tgz
+    version: 2.0.6
+  artifactory.intra.xiaojukeji.com/qs/6.7.0:
+    dev: false
+    engines:
+      node: '>=0.6'
+    name: qs
+    resolution:
+      integrity: sha1-QdwaAV49WB8WIXdr4xr7KHapsbw=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/qs/download/qs-6.7.0.tgz
+    version: 6.7.0
+  artifactory.intra.xiaojukeji.com/range-parser/1.2.1:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: range-parser
+    resolution:
+      integrity: sha1-PPNwI9GZ4cJNGlW4SADC8+ZGgDE=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/range-parser/download/range-parser-1.2.1.tgz
+    version: 1.2.1
+  artifactory.intra.xiaojukeji.com/raw-body/2.4.0:
+    dependencies:
+      bytes: artifactory.intra.xiaojukeji.com/bytes/3.1.0
+      http-errors: artifactory.intra.xiaojukeji.com/http-errors/1.7.2
+      iconv-lite: artifactory.intra.xiaojukeji.com/iconv-lite/0.4.24
+      unpipe: artifactory.intra.xiaojukeji.com/unpipe/1.0.0
+    dev: false
+    engines:
+      node: '>= 0.8'
+    name: raw-body
+    resolution:
+      integrity: sha1-oc5vucm8NWylLoklarWQWeE9AzI=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/raw-body/download/raw-body-2.4.0.tgz
+    version: 2.4.0
+  artifactory.intra.xiaojukeji.com/safe-buffer/5.1.2:
+    dev: false
+    name: safe-buffer
+    resolution:
+      integrity: sha1-mR7GnSluAxN0fVm9/St0XDX4go0=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/safe-buffer/download/safe-buffer-5.1.2.tgz
+    version: 5.1.2
+  artifactory.intra.xiaojukeji.com/safer-buffer/2.1.2:
+    dev: false
+    name: safer-buffer
+    resolution:
+      integrity: sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/safer-buffer/download/safer-buffer-2.1.2.tgz
+    version: 2.1.2
+  artifactory.intra.xiaojukeji.com/send/0.17.1:
+    dependencies:
+      debug: artifactory.intra.xiaojukeji.com/debug/2.6.9
+      depd: artifactory.intra.xiaojukeji.com/depd/1.1.2
+      destroy: artifactory.intra.xiaojukeji.com/destroy/1.0.4
+      encodeurl: artifactory.intra.xiaojukeji.com/encodeurl/1.0.2
+      escape-html: artifactory.intra.xiaojukeji.com/escape-html/1.0.3
+      etag: artifactory.intra.xiaojukeji.com/etag/1.8.1
+      fresh: artifactory.intra.xiaojukeji.com/fresh/0.5.2
+      http-errors: artifactory.intra.xiaojukeji.com/http-errors/1.7.3
+      mime: artifactory.intra.xiaojukeji.com/mime/1.6.0
+      ms: artifactory.intra.xiaojukeji.com/ms/2.1.1
+      on-finished: artifactory.intra.xiaojukeji.com/on-finished/2.3.0
+      range-parser: artifactory.intra.xiaojukeji.com/range-parser/1.2.1
+      statuses: artifactory.intra.xiaojukeji.com/statuses/1.5.0
+    dev: false
+    engines:
+      node: '>= 0.8.0'
+    name: send
+    resolution:
+      integrity: sha1-wdiwWfeQD3Rm3Uk4vcROEd2zdsg=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/send/download/send-0.17.1.tgz
+    version: 0.17.1
+  artifactory.intra.xiaojukeji.com/serve-static/1.14.1:
+    dependencies:
+      encodeurl: artifactory.intra.xiaojukeji.com/encodeurl/1.0.2
+      escape-html: artifactory.intra.xiaojukeji.com/escape-html/1.0.3
+      parseurl: artifactory.intra.xiaojukeji.com/parseurl/1.3.3
+      send: artifactory.intra.xiaojukeji.com/send/0.17.1
+    dev: false
+    engines:
+      node: '>= 0.8.0'
+    name: serve-static
+    resolution:
+      integrity: sha1-Zm5jbcTwEPfvKZcKiKZ0MgiYsvk=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/serve-static/download/serve-static-1.14.1.tgz
+    version: 1.14.1
+  artifactory.intra.xiaojukeji.com/setprototypeof/1.1.1:
+    dev: false
+    name: setprototypeof
+    resolution:
+      integrity: sha1-fpWsskqpL1iF4KvvW6ExMw1K5oM=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/setprototypeof/download/setprototypeof-1.1.1.tgz
+    version: 1.1.1
+  artifactory.intra.xiaojukeji.com/statuses/1.5.0:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: statuses
+    resolution:
+      integrity: sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/statuses/download/statuses-1.5.0.tgz
+    version: 1.5.0
+  artifactory.intra.xiaojukeji.com/toidentifier/1.0.0:
+    dev: false
+    engines:
+      node: '>=0.6'
+    name: toidentifier
+    resolution:
+      integrity: sha1-fhvjRw8ed5SLxD2Uo8j013UrpVM=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/toidentifier/download/toidentifier-1.0.0.tgz
+    version: 1.0.0
+  artifactory.intra.xiaojukeji.com/type-is/1.6.18:
+    dependencies:
+      media-typer: artifactory.intra.xiaojukeji.com/media-typer/0.3.0
+      mime-types: artifactory.intra.xiaojukeji.com/mime-types/2.1.29
+    dev: false
+    engines:
+      node: '>= 0.6'
+    name: type-is
+    resolution:
+      integrity: sha1-TlUs0F3wlGfcvE73Od6J8s83wTE=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/type-is/download/type-is-1.6.18.tgz
+    version: 1.6.18
+  artifactory.intra.xiaojukeji.com/unpipe/1.0.0:
+    dev: false
+    engines:
+      node: '>= 0.8'
+    name: unpipe
+    resolution:
+      integrity: sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/unpipe/download/unpipe-1.0.0.tgz
+    version: 1.0.0
+  artifactory.intra.xiaojukeji.com/utils-merge/1.0.1:
+    dev: false
+    engines:
+      node: '>= 0.4.0'
+    name: utils-merge
+    resolution:
+      integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/utils-merge/download/utils-merge-1.0.1.tgz
+    version: 1.0.1
+  artifactory.intra.xiaojukeji.com/vary/1.1.2:
+    dev: false
+    engines:
+      node: '>= 0.8'
+    name: vary
+    resolution:
+      integrity: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+      registry: http://npm.intra.xiaojukeji.com/
+      tarball: http://artifactory.intra.xiaojukeji.com:80/artifactory/api/npm/npm/vary/download/vary-1.1.2.tgz
+    version: 1.1.2
+specifiers:
+  express: ^4.17.1
