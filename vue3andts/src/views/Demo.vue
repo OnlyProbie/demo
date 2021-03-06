@@ -1,5 +1,5 @@
 <template>
   <div class="learn">
-    课程学习
+    Demo
   </div>
 </template>

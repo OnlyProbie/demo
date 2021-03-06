@@ -12,7 +12,7 @@ ts:
 > packages-tools
 
 Vue：
-> hello-vue3
+> vue3andts
 
 React：
 > react-demo
