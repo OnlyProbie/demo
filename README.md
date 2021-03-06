@@ -6,8 +6,6 @@ webpack：
 > webpack-plugin
 
 ts:
-> chessGames
-> tetrisGames
 > ts-learn
 
 包管理器：
