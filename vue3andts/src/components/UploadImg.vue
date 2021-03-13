@@ -52,14 +52,14 @@ export default defineComponent({
     };
   },
   methods: {
-    handleRemove(file) {
+    handleRemove(file: unknown) {
       console.log(file);
     },
-    handlePictureCardPreview(file) {
+    handlePictureCardPreview(file: any) {
       this.dialogImageUrl = file.url;
       this.dialogVisible = true;
     },
-    handleDownload(file) {
+    handleDownload(file: unknown) {
       console.log(file);
     },
   },

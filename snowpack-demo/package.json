@@ -1,0 +1,11 @@
+{
+  "main": "./src/index.jsx",
+  "scripts": {
+    "dev": "snowpack dev"
+  },
+  "devDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "snowpack": "^3.0.13"
+  }
+}

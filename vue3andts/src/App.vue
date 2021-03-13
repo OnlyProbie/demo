@@ -52,6 +52,7 @@ export default {
 .container {
   padding-left: 200px;
   padding-right: 200px;
+  min-width: 1300px;
 }
 
 </style>

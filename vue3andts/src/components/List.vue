@@ -3,12 +3,24 @@
     :data="tableList"
     style="width: 100%">
     <el-table-column
-      label="Date"
-      prop="date">
-    </el-table-column>
-    <el-table-column
       label="Name"
       prop="name">
+    </el-table-column>
+    <el-table-column
+      label="Region"
+      prop="region">
+    </el-table-column>
+    <el-table-column
+      label="Day"
+      prop="day">
+    </el-table-column>
+    <el-table-column
+      label="Time"
+      prop="time">
+    </el-table-column>
+    <el-table-column
+      label="Desc"
+      prop="desc">
     </el-table-column>
     <el-table-column
       align="right">
@@ -32,54 +44,31 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-
-type tableItem = {
-  date: string;
-  name: string;
-  address: string;
-}
+import { defineComponent, ref, computed } from 'vue';
+import { useStore } from 'vuex'
+import { FormType } from '@/types/index.d'
 
 export default defineComponent({
-  data() {
+  props: ['activityList'],
+  setup() {
+    const search = ref('')
+    const store = useStore()
+    const tableList = computed(() => store.getters.tableList)
+    const handleEdit = function (index: number, row: FormType): void {
+      console.log(index, row);
+    }
+    const handleDelete = function (index: number, row: FormType): void {
+      console.log(index, row);
+    }
     return {
-      tableData: [{
-        date: '2016-05-02',
-        name: '王小虎',
-        address: '上海市普陀区金沙江路 1518 弄',
-      }, {
-        date: '2016-05-04',
-        name: '王小虎',
-        address: '上海市普陀区金沙江路 1517 弄',
-      }, {
-        date: '2016-05-01',
-        name: '王小虎',
-        address: '上海市普陀区金沙江路 1519 弄',
-      }, {
-        date: '2016-05-03',
-        name: '王小虎',
-        address: '上海市普陀区金沙江路 1516 弄',
-      }],
-      search: '',
-    };
-  },
-  computed: {
-    tableList(): tableItem[] {
-      const { tableData, search } = this;
-      return tableData.filter((data: tableItem) => !search || data.name.toLowerCase().includes(search.toLowerCase()));
-    },
-  },
-  methods: {
-    handleEdit(index: number, row: tableItem): void {
-      console.log(index, row);
-    },
-    handleDelete(index: number, row: tableItem): void {
-      console.log(index, row);
-    },
+      tableList,
+      handleEdit,
+      handleDelete,
+    }
   },
 });
 </script>
 
-<style lang="ts">
+<style lang="scss">
 
 </style>
