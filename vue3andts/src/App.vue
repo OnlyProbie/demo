@@ -1,58 +1,21 @@
 <template>
-  <div class="nav-box">
-    <div class="logo">LOGO</div>
-    <div class="nav-list">
-      <router-link to="/">Home</router-link>
-      <router-link to="/learn">Demo</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link to="/activity">Activity</router-link>
-    </div>
-  </div>
-  <div class="container">
-    <router-view></router-view>
+  <div class="sidebar_menu">
+    <div class="logo"><Avatar imgSrc="http://cdn.qiniu.archerk.com.cn/meimei.jpeg" size="180" /><Avatar imgSrc="http://cdn.qiniu.archerk.com.cn/meimei.jpeg" /></div>
   </div>
 </template>
 
 <script lang="ts">
+import Avatar from './components/avatar/Avatar.vue';
+
 export default {
   name: 'app',
   components: {
+    Avatar,
   },
 };
 
 </script>
 
 <style lang="scss" scoped>
-.nav-box {
-  display: flex;
-  justify-content: space-between;
-  height: 60px;
-  line-height: 60px;
-  background-color: #3385ff;
-
-  .logo {
-    color: #fff;
-  }
-  .nav-list a {
-    margin-left: 40px;
-    color: #fff;
-    text-decoration: none;
-    &.router-link-exact-active {
-      font-weight: bold;
-      color: #f40;
-    }
-  }
-}
-
-.container {
-  margin-top: 60px;
-}
-
-.nav-box,
-.container {
-  padding-left: 200px;
-  padding-right: 200px;
-  min-width: 1300px;
-}
 
 </style>
