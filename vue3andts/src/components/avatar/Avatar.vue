@@ -2,8 +2,8 @@
  * 头像组件
  */
 <template>
-  <div class="avatar_wrapper">
-    <img class="avatar_wrapper_img" :src="imgUrl" :style="{ width: size + 'px', height: size + 'px', borderRadius: avatarRadius + '%' }" />
+  <div class="avatar-wrapper">
+    <img class="avatar-wrapper-img" :src="imgUrl" :style="{ width: size + 'px', height: size + 'px', borderRadius: avatarRadius + '%' }" />
   </div>
 </template>
 
@@ -32,15 +32,12 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-.avatar_wrapper {
+.avatar-wrapper {
   display: inline-block;
-  .avatar_wrapper_img {
+  &-img {
     display: flex;
     // border-radius: 50%;
     object-fit: cover;
-  }
-  .img_hover:hover {
-    cursor: pointer;
   }
 }
 </style>
