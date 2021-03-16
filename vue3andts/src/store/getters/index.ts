@@ -5,5 +5,5 @@ export default {
     return (search: string) => {
       state.activityList.filter((data: FormType) => !search || data.name.toLowerCase().includes(search.toLowerCase()));
     }
-  }
+  },
 }

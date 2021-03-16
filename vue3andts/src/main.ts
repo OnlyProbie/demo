@@ -1,5 +1,5 @@
 import { createApp } from 'vue';
-import './assets/css/reset.css';
+import './assets/css/global.scss';
 import App from './App.vue';
 import router from './router';
 import store from './store';
@@ -90,7 +90,6 @@ import store from './store';
 //   // ElMessageBox,
 //   // ElNotification,
 // } from 'element-plus';
-
 
 // const components = [
 //   ElAlert,

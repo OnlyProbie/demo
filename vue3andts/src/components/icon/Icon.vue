@@ -6,11 +6,11 @@
  * 具体图标见：https://www.iconfont.cn/manage/index?manage_type=myprojects&projectId=2422722
  */
 <template>
-  <i class="icon-style" :class=" 'icon-' + type " />
+  <i class="icon-wrapper" :class=" 'icon-' + type " />
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from 'vue'
+import { defineComponent } from 'vue'
 // 支持的icon type
 // 具体图标见：https://www.iconfont.cn/manage/index?manage_type=myprojects&projectId=2422722
 export const iconType = [
@@ -70,7 +70,7 @@ export default defineComponent({
 <style lang="scss" scoped>
   @import '//at.alicdn.com/t/font_2422722_k6tcxv74dhj.css';
 
-  .icon-style {
+  .icon-wrapper {
     font-family: "iconfont" !important;
     font-style: normal;
     font-size: 24px;
