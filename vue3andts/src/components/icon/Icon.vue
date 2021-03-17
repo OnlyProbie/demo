@@ -6,7 +6,7 @@
  * 具体图标见：https://www.iconfont.cn/manage/index?manage_type=myprojects&projectId=2422722
  */
 <template>
-  <i class="icon-wrapper" :class=" 'icon-' + type " />
+  <i class="iconfont icon-wrapper" :class=" 'icon-' + type " />
 </template>
 
 <script lang="ts">
@@ -71,10 +71,6 @@ export default defineComponent({
   @import '//at.alicdn.com/t/font_2422722_k6tcxv74dhj.css';
 
   .icon-wrapper {
-    font-family: "iconfont" !important;
-    font-style: normal;
     font-size: 24px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
   }
 </style>
