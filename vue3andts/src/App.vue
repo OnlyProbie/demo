@@ -2,7 +2,7 @@
   <div class="sidebar_menu">
     <div class="logo"><Avatar :isClick="true" imgUrl="http://cdn.qiniu.archerk.com.cn/meimei.jpeg" size="180" /><Avatar avatarRadius="10" imgUrl="http://cdn.qiniu.archerk.com.cn/meimei.jpeg" /></div>
     <Icon type="comment" />
-    <Pager @pageChange="handlePageChange" :total="total" :current="current" :visibleNumber="15" />
+    <Pager @pageChange="handlePageChange" :total="total" :current="current" :visibleNumber="10" />
   </div>
 </template>
 

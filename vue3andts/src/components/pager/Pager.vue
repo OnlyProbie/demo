@@ -6,7 +6,7 @@
   <div class="pager-wrapper" v-if="allPagesNumber > 0">
     <a @click="handleClick(1)" :class="{ disabled: current === 1 }"><icon type="double-arrow-left" /></a>
     <a @click="handleClick(current - 1)" :class="{ disabled: current === 1 }"><icon type="arrow-left" /></a>
-    <a @click="handleClick(n)" v-for="(n, i) in pageNumbers" :class="{ active: n === current }" :key="i">{{n}}</a>
+    <a @click="handleClick(n)" v-for="(n, i) in pageNumbers" :class="{ active: n === current, isClick: n !== current }" :key="i">{{n}}</a>
     <a @click="handleClick(current + 1)" :class="{ disabled: current === allPagesNumber }"><icon type="arrow-right" /></a>
     <a @click="handleClick(allPagesNumber)" :class="{ disabled: current === allPagesNumber }"><icon type="double-arro-right" /></a>
   </div>
@@ -54,7 +54,8 @@ export default defineComponent({
     },
     pageNumbers(): number[] { // 得到显示的页数数组
       const pageNumArr: number[] = [];
-      for (let i = this.visibleMin; i <= this.visibleMax; i++) {
+      const itemIndex = this.visibleMax === this.allPagesNumber ? this.visibleMax - this.visibleNumber : this.visibleMin;
+      for (let i = itemIndex; i <= this.visibleMax; i++) {
         pageNumArr.push(i);
       }
       return pageNumArr;
@@ -63,7 +64,9 @@ export default defineComponent({
   methods: {
     handleClick(newPage: number) { // 抛出事件
       console.log(newPage);
-      this.$emit('pageChange', newPage)
+      if (newPage <= this.allPagesNumber && newPage > 0) {
+        this.$emit('pageChange', newPage)
+      }
     },
   },
 })
@@ -78,14 +81,10 @@ export default defineComponent({
   align-items: center;
   margin: 20px 0;
   a {
-    margin: 0 6px;
-    width: 22px;
+    padding: 0 10px;
+    min-width: 24px;
     color: $primary;
     cursor: pointer;
-    &:hover {
-      color: $words;
-      font-weight: bold;
-    }
     &.disabled {
       color: $lightWorlds;
       cursor: not-allowed;
@@ -94,6 +93,12 @@ export default defineComponent({
       color: $words;
       font-weight: bold;
       cursor: not-allowed;
+    }
+    &.isClick {
+      &:hover {
+        color: $words;
+        font-weight: bold;
+      }
     }
   }
 }
