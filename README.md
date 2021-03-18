@@ -11,9 +11,6 @@ ts:
 包管理器：
 > packages-tools
 
-Vue：
-> vue3andts
-
 React：
 > react-demo
 
