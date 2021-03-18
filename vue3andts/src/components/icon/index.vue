@@ -55,6 +55,13 @@ export const iconType = [
   'comments',
   'home',
   'list',
+  'empty',
+  'qq',
+  'location',
+  'ego-blog',
+  'github',
+  'email',
+  'phone'
 ];
 
 export default defineComponent({
@@ -68,7 +75,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-  @import '//at.alicdn.com/t/font_2422722_k6tcxv74dhj.css';
+  @import '//at.alicdn.com/t/font_2422722_vglbrn5n4t9.css';
 
   .icon-wrapper {
     font-size: 24px;

@@ -17,5 +17,7 @@ module.exports = {
     'max-len': 'off',
     semi: 'off',
     'no-plusplus': 'off',
-  },
+    'comma-dangle': 'off',
+    'camelcase': 'off'
+  }
 };
