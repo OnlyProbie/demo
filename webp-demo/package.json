@@ -1,0 +1,20 @@
+{
+  "name": "webp-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "jquery": "^3.6.0",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0"
+  }
+}
