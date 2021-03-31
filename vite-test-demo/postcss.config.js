@@ -1,0 +1,2 @@
+const { ModuleGraph } = require("vite");
+
