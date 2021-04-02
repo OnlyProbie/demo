@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import vm from 'virtual-module'
+import vm from 'hello-vite'
 
 console.log(vm)
 

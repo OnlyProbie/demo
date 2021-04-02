@@ -12,5 +12,10 @@ export default defineConfig({
       "comps": resolve('./src/components')
     }
   },
+  css: {
+    modules:{
+
+    }
+  },
   plugins: [vue(), VitePluginDemo(), i18n]
 })

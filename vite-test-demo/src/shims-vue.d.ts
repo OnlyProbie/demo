@@ -4,6 +4,6 @@ declare module '*.vue' {
   export default component
 }
 
-declare module 'virtual-module' {
+declare module 'hello-vite' {
 
 }

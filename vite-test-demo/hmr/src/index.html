@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>hello,vite</div>
+  <button class="button">发送</button>
+  <h2>data:</h2>
+  <div class="response-data">adsfadf</div>
+  <img src="../../src/assets/test.jpg"></img>
+</body>
+<script>
+  var oButtons = document.getElementsByClassName('button');
+  var oResponseDatas = document.getElementsByClassName('response-data');
+  var oResponseData = oResponseDatas.length && oResponseDatas[0];
+
+
+  if (oButtons.length) {
+      oButtons[0].addEventListener('click', onClick, false);
+  }
+  function onClick() {
+    var socket = new WebSocket('ws://localhost:3008')
+    socket.open = function() {
+      socket.send('123');
+    }
+    socket.onmessage = function(event) {
+      console.log(event.data);
+      oResponseData.innerHTML = event.data;
+    }
+    socket.onclose = function() {
+      console.log('close');
+    }
+  }
+
+
+</script>
+</html>

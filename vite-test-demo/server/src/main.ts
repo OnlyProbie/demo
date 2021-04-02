@@ -1,7 +1,7 @@
 // alert('hello kvite')
 
-import { createApp, h } from 'vue'
+import { createApp } from 'vue'
 
-createApp({
-  render: () => h('div', 'hello vite')
-}).mount('#app')
+import App from './App.vue'
+
+createApp(App).mount('#app')
