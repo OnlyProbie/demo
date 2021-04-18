@@ -1,10 +1,11 @@
 export default {
   name: 'i18n-test',
   resolveId (source) {
-    if (/vue&type=i18n/.test(source)) {
-      console.log('i18n source => ', source)
-      return source
-    }
+    // if (/vue&type=i18n/.test(source)) {
+    //   console.log('i18n source => ', source)
+    //   return source
+    // }
+    return null
   },
   load (id) {
     if (/vue&type=i18n/.test(id)) {

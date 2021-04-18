@@ -25,7 +25,7 @@ app.use(async (ctx) => {
     // 响应js请求
     const p = path.join(__dirname, url)
     ctx.type = 'text/javascript'
-    // const file = rewriteImport(fs.readFileSync(p, 'utf8'))
+    const file = rewriteImport(fs.readFileSync(p, 'utf8'))
     const file = fs.readFileSync(p, 'utf8')
     ctx.body = file
   } else if (url.startsWith('/@modules/')) {

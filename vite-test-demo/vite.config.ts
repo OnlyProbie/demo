@@ -17,5 +17,5 @@ export default defineConfig({
 
     }
   },
-  plugins: [vue(), VitePluginDemo(), i18n]
+  plugins: [vue(), VitePluginDemo(),  i18n]
 })
